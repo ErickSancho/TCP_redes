@@ -49,9 +49,5 @@ class ThreeWayHandshake:
     def IsConnected(self):
         return self.connected
 
-    def Reset(self):
-        self.status = None
-        self.connected = False
-
     def print_status(self):
         print "\tstatus: "+ str(self.status) +", connection established: " + str(self.connected)
