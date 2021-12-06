@@ -89,7 +89,6 @@ def main():
     if(accion=='1'):
       msg = raw_input("Enter the message:")
       client_message(msg)
-      sock.sendall('1'.encode('ascii'))
 
 
     elif (accion=='2'):
